@@ -1,7 +1,10 @@
-#name {
-	margin: 5px auto;
+#myName {
+  text-align: center;
 }
 #mainPhoto {
 	width: 300px;
-	height: 300px;
+  height: 300px;
+  float: left;
+  padding: 10px;
+  margin-right: 20px;
 }
