@@ -1,10 +1,33 @@
+body {
+  display:grid;
+}
+
 #myName {
-  text-align: center;
+	text-align: center;
 }
 #mainPhoto {
 	width: 300px;
-  height: 300px;
-  float: left;
-  padding: 10px;
-  margin-right: 20px;
+	height: 300px;
+  grid-area: 0/0/2/0;
+	padding: 10px;
+	margin-right: 20px;
+}
+/* #about-me{
+  float:right;
+}
+#about-me-content{
+  float:right;
+} */
+#very-proficient {
+	float: left;
+}
+.skills{
+  display:grid;
+  grid-template:"a a a" auto;
+}
+.list-header{
+  font-size: 20px;
+}
+.heading{
+  border: 5px solid black;
 }
