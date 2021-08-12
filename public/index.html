@@ -2,45 +2,57 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>adamnnoli</title>
+		<title>Adam Nnoli</title>
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<h1 id="myName">Adam Nnoli</h1>
-
-		<span>
-			<img id="mainPhoto" src="./images/mainPhoto.JPG" alt="A Photo of Me" />
-		</span>
-		<span>
-		<h2 class="heading" id="about-me">About Me</h2>
-		<p id="about-me-content"> 
-			My Name is Adam Nnoli. I am a 3rd year student studying at Cornell
-			University, working towards my Bachelors in Computer Science.
-		</p>
-		</span>
-		
-			<h2 class="heading">Technical Skills</h2>
-			<div class="skills">
+		<div class="opening">
+			<div class="photo-container">
+				<img
+					src="./images/mainPhoto.JPG"
+					alt="A Photo of Me"
+					class="mainPhoto"
+				/>
+			</div>
+			<h1 class="title">Adam Nnoli</h1>
+			<div class="about-me-container">
+				<h2 class="heading">About Me</h2>
+				<p class="about-me-content">
+					Hello, my name is Adam Nnoli. I am a rising senior at Cornell University,
+					majoring in Computer Science, with a minor in Business. Right now, I am
+					a Software Engineering Intern at Stripe, working on their Dashboard
+					Experience Team. My goals are to grow as engineer by gaining experience
+					in the field to expand the breadth and depth of my knowledge of the field
+					of software developement.
+				</p>
+			</div>
+		</div>
+		<h2 class="heading">Technical Skills</h2>
+		<div class="technical-skills-container">
 			<ul class="skill-list">
-				<div class ="list-header" id="very-proficient-header">Very Proficient</div> 
-				<li>Python</li>
-				<li>OCaml</li>
+				<div class="list-name">Very Proficient</div>
+				<li class="skill">Python</li>
+				<li class="skill">Java</li>
+				<li class="skill">OCaml</li>
+				<li class="skill">Git</li>
 			</ul>
 			<ul class="skill-list">
-				<div class ="list-header"id="proficient-header">Proficient</div>
-				<li>Vue</li>
-			</ul class="skill-list">
-			<ul>
-				<div class ="list-header" id="basic-header">Basic Understanding</div>
-				<li>React</li>
+				<div class="list-name">Proficient</div>
+				<li class="skill">JavaScript</li>
+				<li class="skill">CSS</li>
+			</ul>
+			<ul class="skill-list">
+				<div class="list-name">Basic Understanding</div>
+				<li class="skill">Vue</li>
+				<li class="skill">React</li>
+				<li class="skill">Firebase</li>
 			</ul>
 		</div>
 		<h2 class="heading">Projects</h2>
-		<ul>
-			<li>Game Center</li>
-			<li>Pong</li>
-			<li>Word Cookies</li>
-		</ul>
 		<h2 class="heading">Education</h2>
+		<div class="education-item">
+			<span><h3 class="school-name">Cornell University</h3></span>
+			<span>August 2018 - May 2022</span>
+		</div>
 	</body>
 </html>

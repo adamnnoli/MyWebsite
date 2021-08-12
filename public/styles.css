@@ -1,33 +1,19 @@
 body {
-  display:grid;
 }
-
-#myName {
-	text-align: center;
+.opening {
+	display: inline-block;
 }
-#mainPhoto {
-	width: 300px;
-	height: 300px;
-  grid-area: 0/0/2/0;
-	padding: 10px;
-	margin-right: 20px;
+.photo-container {
+	grid-row: 1 / 3;
 }
-/* #about-me{
-  float:right;
+.technical-skills-container {
+	display: grid;
+	grid-template: "a a a" auto;
 }
-#about-me-content{
-  float:right;
-} */
-#very-proficient {
-	float: left;
+.list-name {
+	font-size: 20px;
+	font-weight: bold;
 }
-.skills{
-  display:grid;
-  grid-template:"a a a" auto;
-}
-.list-header{
-  font-size: 20px;
-}
-.heading{
-  border: 5px solid black;
+.skill {
+	list-style: none;
 }
